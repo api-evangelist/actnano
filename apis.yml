@@ -1,7 +1,19 @@
 aid: actnano
 name: actnano
-description: 'actnano is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'actnano, Inc. is a Massachusetts-based advanced materials company that
+  develops and manufactures PFAS-free protective nanocoatings for electronics. Its
+  flagship Advanced nanoGUARD technology is a gel-state, 100% fluorine-free conformal
+  coating applied to printed circuit board assemblies, connectors, antennas, LEDs and
+  high-heat-generating components, delivering up to IPx8 moisture and condensation
+  protection without trapping heat or degrading signal integrity. Founded in 2012 and
+  headquartered in Cambridge, Massachusetts, with a Munich center of excellence and
+  operations in Mexico and Japan, actnano serves mobility and automotive electronics,
+  consumer electronics, AI and data-center infrastructure, solar, industrial electronics,
+  medical devices and optical anti-fog applications. The company states REACH and RoHS
+  compliance and ISO 9001:2015 certification, and is backed by BMW i Ventures, Porsche
+  Ventures and Emerald Technology Ventures. actnano is a materials manufacturer: it
+  publishes no public developer program, API, or machine-readable API contract.'
+image: https://actnano.com/wp-content/uploads/2023/03/asset-3-2-x-1-new.png
 url: https://raw.githubusercontent.com/api-evangelist/actnano/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +24,16 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Advanced Materials
+- Nanotechnology
+- Coatings
+- Electronics Manufacturing
+- Automotive
+- Consumer Electronics
+- Data Center Infrastructure
+- Solar
+- Medical Devices
+- Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,53 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/actnano-domain-security.yml
+- type: LLMsTxt
+  url: llms/actnano-llms.txt
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://actnano.com/
+- type: Support
+  url: https://actnano.com/contact-us/
+- type: Blog
+  url: https://actnano.com/articles/
+- type: News
+  url: https://actnano.com/news/
+- type: PressReleases
+  url: https://actnano.com/press/
+- type: FAQ
+  url: https://actnano.com/faq/
+- type: PrivacyPolicy
+  url: https://actnano.com/privacy-policy/
+- type: TermsOfService
+  url: https://actnano.com/terms-and-conditions/
+- type: Investors
+  url: https://actnano.com/investors/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/advanced-consulting-technologies-inc-/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCva2fDHgJ2fjAd5jdbHKKQw
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: actnano manufactures PFAS-free protective nanocoatings for circuit boards —
+    a chemicals and materials product with no software offering; its entire WordPress
+    site is product, safety-data-sheet and press content, and no api./developer./docs./portal.
+    subdomain resolves in DNS.
+  evidence:
+  - url: https://actnano.com/developers
+    status: 404
+  - url: https://actnano.com/openapi.json
+    status: 404
+  - url: https://actnano.com/.well-known/agent-card.json
+    status: 404
+  - url: https://actnano.com/llms.txt
+    status: 404
+  - url: https://actnano.com/contact-us/
+    status: 200
+  checked: '2026-08-06'

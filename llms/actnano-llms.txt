@@ -1,0 +1,67 @@
+# actnano
+
+> actnano, Inc. is a Cambridge, Massachusetts advanced materials company that makes
+> PFAS-free protective nanocoatings for electronics. Its Advanced nanoGUARD technology
+> is a gel-state, 100% fluorine-free conformal coating for printed circuit board
+> assemblies, connectors, antennas, LEDs and high-heat components, providing up to
+> IPx8 moisture and condensation protection without trapping heat or degrading signal
+> integrity. actnano is a materials manufacturer — as of 2026-08-06 it publishes no
+> public API, developer portal, or machine-readable API contract.
+
+<!--
+generated: '2026-08-06'
+method: generated
+source: apis.yml + https://actnano.com/ (provider publishes no /llms.txt; https://actnano.com/llms.txt returned 404)
+note: This file is an API Evangelist third-party profile summary. It is NOT served by
+      actnano and does not represent an actnano-published llms.txt.
+-->
+
+## Company
+
+- [actnano](https://actnano.com/): Company homepage — Advanced nanoGUARD PFAS-free conformal nanocoatings.
+- [Contact](https://actnano.com/contact-us/): Sales and general enquiries (info@actnano.com, +1-877-655-8220).
+- [Investors](https://actnano.com/investors/): Investor information; backers include BMW i Ventures, Porsche Ventures, Emerald Technology Ventures.
+- [FAQ](https://actnano.com/faq/): Frequently asked questions about the coating technology.
+
+## Technology and markets
+
+- [PFAS-free](https://actnano.com/pfas-free/): 100% fluorine-free surface protection positioning.
+- [PCBA](https://actnano.com/pcba/): Printed circuit board assembly protection.
+- [Mobility](https://actnano.com/mobility/): Automotive and EV electronics protection.
+- [Consumer Electronics](https://actnano.com/consumer-electronics-coatings/): Consumer device coatings.
+- [AI / Data Infrastructure](https://actnano.com/ai-data-infrastructure/): Data-center and liquid-cooling condensation protection.
+- [Industrial Electronics](https://actnano.com/industrial-electronics/): Industrial electronics applications.
+- [Medical](https://actnano.com/medical/): Medical device coatings.
+- [Solar](https://actnano.com/solar/): Photovoltaic applications.
+- [Optical anti-fog](https://actnano.com/optical-antifog-coatings/): Optical anti-fog coatings.
+- [Human safe](https://actnano.com/human-safe/): Human and environmental safety positioning.
+- [Environment](https://actnano.com/environment/): Environmental posture, REACH/RoHS compliance claims.
+
+## Documentation and content
+
+- [TDS / SDS](https://actnano.com/tds-sds/): Technical and safety data sheets.
+- [Literature](https://actnano.com/literature/): Product literature.
+- [Articles](https://actnano.com/articles/): Company articles.
+- [News](https://actnano.com/news/): Press coverage.
+- [Press releases](https://actnano.com/press/): Company press releases.
+
+## Legal
+
+- [Privacy Policy](https://actnano.com/privacy-policy/)
+- [Terms and Conditions](https://actnano.com/terms-and-conditions/)
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/advanced-consulting-technologies-inc-/)
+- [YouTube](https://www.youtube.com/channel/UCva2fDHgJ2fjAd5jdbHKKQw)
+
+## API surface
+
+actnano publishes no API. Probed 2026-08-06 and all returned 404 on https://actnano.com:
+/openapi.json, /openapi.yaml, /swagger.json, /api-docs, /docs, /api, /developer,
+/developers, /llms.txt, /.well-known/security.txt, /.well-known/openid-configuration,
+/.well-known/oauth-authorization-server, /.well-known/api-catalog,
+/.well-known/ai-plugin.json, /.well-known/agent-card.json, /.well-known/agent.json.
+The hosts api., app., portal., developer., docs., my. and trust..actnano.com do not
+resolve in DNS. github.com/actnano exists as an empty organization (0 public repos,
+no linked website) and ownership is unverified.
