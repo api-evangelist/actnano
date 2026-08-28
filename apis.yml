@@ -13,6 +13,17 @@ description: 'actnano, Inc. is a Massachusetts-based advanced materials company 
   compliance and ISO 9001:2015 certification, and is backed by BMW i Ventures, Porsche
   Ventures and Emerald Technology Ventures. actnano is a materials manufacturer: it
   publishes no public developer program, API, or machine-readable API contract.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://actnano.com/wp-content/uploads/2023/03/asset-3-2-x-1-new.png
 url: https://raw.githubusercontent.com/api-evangelist/actnano/refs/heads/main/apis.yml
 x-type: company
